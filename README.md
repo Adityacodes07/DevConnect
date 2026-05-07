@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 DevConnect
 
-## Getting Started
+DevConnect is a modern developer link-sharing platform built using Next.js, NextAuth, Express.js, and MongoDB Atlas.
 
-First, run the development server:
+Users can log in with GitHub, manage important links like Portfolio, LinkedIn, GitHub, Resume, and create a personalized developer profile with a modern responsive UI.
+
+---
+
+## ✨ Features
+
+* 🔐 GitHub Authentication using NextAuth
+* 📁 Protected Dashboard
+* 🔗 Add & Manage Links
+* ☁️ MongoDB Atlas Integration
+* ⚡ Modern Responsive UI
+* 👨‍💻 Developer Profile Page
+* 🚀 Built with Next.js App Router
+
+---
+
+## 🛠️ Tech Stack
+
+* Next.js
+* React.js
+* Tailwind CSS
+* NextAuth.js
+* Express.js
+* Node.js
+* MongoDB Atlas
+
+---
+
+## 📦 Installation
+
+```bash
+git clone YOUR_REPOSITORY_URL
+
+cd devconnect
+
+npm install
+```
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+GITHUB_ID=your_github_id
+GITHUB_SECRET=your_github_secret
+
+NEXTAUTH_SECRET=your_secret
+NEXTAUTH_URL=http://localhost:3000
+```
+
+Create a `.env` file inside backend folder:
+
+```env
+MONGO_URL=your_mongodb_connection_string
+```
+
+---
+
+## ▶️ Run Frontend
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ▶️ Run Backend
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cd backend
 
-## Learn More
+node server.js
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Add your project screenshots here.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Developer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Aditya Kewat
+
+Portfolio:
+https://adityacodes07.github.io/my-portfolio/
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a star on GitHub ⭐
