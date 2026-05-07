@@ -134,7 +134,7 @@ export default function Developer() {
 
               {/* Portfolio */}
               <a
-                href="https://adityacodes07.github.io/my-portfolio/"
+                href="https://3d-portifolio-six.vercel.app/#about"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
