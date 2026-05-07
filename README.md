@@ -5,6 +5,7 @@ DevConnect is a modern developer link-sharing platform built using Next.js, Next
 Users can log in with GitHub, manage important links like Portfolio, LinkedIn, GitHub, Resume, and create a personalized developer profile with a modern responsive UI.
 
 ---
+#LIVE LINK = https://dev-connect-wheat.vercel.app
 
 ## ✨ Features
 
