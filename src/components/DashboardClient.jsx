@@ -14,7 +14,7 @@ export default function Dashboard() {
     if (!session?.user?.email) return;
 
     fetch(
-      `http://localhost:5000/api/links/${session.user.email}`
+      `https://devconnect-hf4d.onrender.com/api/links/${session.user.email}`
     )
       .then((res) => res.json())
       .then((data) => setLinks(data))
@@ -27,7 +27,7 @@ export default function Dashboard() {
 
     try {
       const res = await fetch(
-        "http://localhost:5000/api/links",
+        "https://devconnect-hf4d.onrender.com/api/links",
         {
           method: "POST",
           headers: {
@@ -57,7 +57,7 @@ export default function Dashboard() {
   const deleteLink = async (id) => {
     try {
       await fetch(
-        `http://localhost:5000/api/links/${id}`,
+        `https://devconnect-hf4d.onrender.com/api/links/${id}`,
         {
           method: "DELETE",
         }
